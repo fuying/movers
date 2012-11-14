@@ -3,4 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $ ->
-	$('#melbourne-map').vectorMap()
+	$('#melbourne-map').vectorMap(
+    onRegionClick: (e, code) ->
+      alert "test"
+  )
