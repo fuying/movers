@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.mobile-1.2.0.min
 //= require jquery-jvectormap-1.1.1.min
 //= require jquery-jvectormap-world-mill-en
 //= require home
