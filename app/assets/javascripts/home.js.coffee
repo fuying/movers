@@ -9,4 +9,4 @@ $ ->
 
   $('.jvectormap-region').on 'taphold', (event) =>
     event.preventDefault()
-    alert 'haphold'
+    $(event.target).trigger('regionClick.jvectormap');
