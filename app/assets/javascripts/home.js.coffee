@@ -9,4 +9,4 @@ $ ->
 
   $('.jvectormap-region').on 'taphold', (event) =>
     event.preventDefault()
-    alert 'haphold' + event.target.attr('data-code')
+    alert 'haphold'
